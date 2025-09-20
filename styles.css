@@ -1,0 +1,78 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+
+.content {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    height: 1080px;
+    width: 1920px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    position: relative; /* 親要素を基準に */
+}
+
+
+.sumi-icon {
+    position: absolute;
+    background-image: url('img/sumi.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+.sumi-0{
+    position: absolute;
+    top: 55px; 
+    right: -85px; 
+    width: 327px; 
+    height: 74px; 
+}
+
+.sumi-1{
+    position: absolute;
+    top: 225px; 
+    right: -85px; 
+    width: 327px; 
+    height: 74px; 
+}
+
+.sumi-2{
+    position: absolute; 
+    top: 400px; 
+    right: -85px; 
+    width: 327px; 
+    height: 74px; 
+}
+
+.sumi-3{
+    position: absolute; 
+    top: 585px; 
+    right: -85px; 
+    width: 327px; 
+    height: 74px; 
+}
+
+.sumi-4{
+    position: absolute; 
+    top: 755px; 
+    right: -85px; 
+    width: 327px; 
+    height: 74px; 
+}
+
+/* 160 */
